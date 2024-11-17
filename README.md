@@ -52,7 +52,7 @@ node app.js
 npm start
 Access the App: Open your browser and navigate to:
 
-
+## Folder Structure
 calendar-event-app/
 ├── client/
 │   ├── public/
