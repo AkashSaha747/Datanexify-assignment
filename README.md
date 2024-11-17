@@ -25,9 +25,8 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/username/calendar-event-app.git
-cd calendar-event-app
-Install dependencies: Navigate to both client and server directories and install the required packages.
+git clone https://github.com/akashsaha747/Datanexify-assignment
+
 
 bash
 Copy code
@@ -47,22 +46,13 @@ Run the Application: Start the server and client:
 bash
 Copy code
 # In server directory
-node server.js
+node app.js
 
 # In client directory
 npm start
 Access the App: Open your browser and navigate to:
 
-arduino
-Copy code
-http://localhost:3000
-Usage
-Sign in with Google: Click the "Authenticate with Google" button to log in.
-Create Events: After authentication, use the "Create Calendar Event" button to create an event.
-View Events: The list of events will be shown in a table format with pagination controls for easy navigation.
-Folder Structure
-csharp
-Copy code
+
 calendar-event-app/
 ├── client/
 │   ├── public/
@@ -80,25 +70,14 @@ calendar-event-app/
 │   └── .env
 ├── server/
 │   ├── db.js
-│   ├── server.js
+│   ├── app.js
 │   └── package.json
 └── README.md
-Important Notes
-Environment Variables: Do not commit the .env file to version control as it contains sensitive information.
-OAuth 2.0 Redirect URI: Ensure the redirect URI in the Google Cloud Console matches the one used in the app (http://localhost:3000).
-Troubleshooting
-If environment variables are not being read, confirm that the .env file is correctly located in the root of the client directory and that REACT_APP_ prefixes are used.
-Ensure that the development server (npm start) is restarted after modifying the .env file.
-Future Enhancements
-Add error handling for network requests.
-Implement user notifications for event creation or update statuses.
-Add a feature to edit or delete events.
-License
-This project is licensed under the MIT License. See LICENSE for more details.
+
 
 Acknowledgements
 Google Calendar API
+Google Oauth
 React
 Node.js
 Express
-Feel free to reach out for any questions or further clarifications regarding the project!
