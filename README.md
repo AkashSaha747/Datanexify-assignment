@@ -53,7 +53,7 @@ npm start
 Access the App: Open your browser and navigate to:
 
 ## Folder Structure
-calendar-event-app/
+```calendar-event-app/
 ├── client/
 │   ├── public/
 │   ├── src/
@@ -72,8 +72,7 @@ calendar-event-app/
 │   ├── db.js
 │   ├── app.js
 │   └── package.json
-└── README.md
-
+└── README.md```
 
 Acknowledgements
 Google Calendar API
